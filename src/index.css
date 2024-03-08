@@ -130,7 +130,7 @@ img {
   box-shadow: 0 0 1px rgb(0 0 0 / 0%);
   border: 1px solid transparent;
   color: #fff;
-  display: inline;
+  display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
 }
