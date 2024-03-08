@@ -19,7 +19,7 @@ const Sidebar = () => {
             </li>
 
             <li className="nav__item">
-              <a href="about" className="nav__link">
+              <a href="#about" className="nav__link">
                 <i className="icon-user-following"></i>
               </a>
             </li>
