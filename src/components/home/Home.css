@@ -1,6 +1,6 @@
 .home{
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@
     position: absolute;
     top: .5rem;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     animation: ani-mouse 2.5s linear infinite;
 }
 
@@ -156,6 +156,6 @@
 }
 
 .s11{
-    bottom: 45%;
+    bottom: 10%;
     right: 2%;
 }
