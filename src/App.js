@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Services from './components/services/Services';
+import Skills from './components/skill/Skills';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Pricing from './components/pricing/Pricing';
@@ -16,7 +16,7 @@ function App() {
     <main className='main'>
         <Home/>
         <About/>
-        <Services/>
+        <Skills/>
         <Resume/>
         <Portfolio/>
         <Pricing/>

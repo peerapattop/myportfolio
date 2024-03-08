@@ -1,0 +1,29 @@
+.services__container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+    row-gap: 2.5rem;
+}
+
+.services__img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1.25rem;
+}
+
+.services__card {
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover {
+    transform: translateY(-10px);
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+}
