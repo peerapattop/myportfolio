@@ -11,7 +11,7 @@ const Portfolio = () => {
     setItem(updatedItems);
   };
   return (
-    <section className="work container section" id='work'>
+    <section className="work container section" id='portfolio'>
       <h2 className='section__title'>Projects</h2>
 
       <div className="work__filters">
