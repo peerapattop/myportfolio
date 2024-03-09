@@ -24,14 +24,6 @@ const Data = [
     desc: "Electronics at Samut Sakhon Technical College",
   },
   {
-    id: 4,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2024 - present",
-    title: "Developer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
-  },
-  {
     id: 5,
     category: "experience",
     icon: "icon-briefcase",
