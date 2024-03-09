@@ -93,13 +93,13 @@
     animation: ani-mouse 2.5s linear infinite;
 }
 
-.shapes{
+/* .shapes{
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-}
+} */
 
 .shape{
     position: absolute;
