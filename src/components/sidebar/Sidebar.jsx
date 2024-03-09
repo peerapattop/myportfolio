@@ -1,12 +1,11 @@
 import React from "react";
 import "./Sidebar.css";
-import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
   return (
     <aside className="aside">
       <a href="#home" className="nva__logo">
-        <img src={Logo} alt="" />
+        <img src="https://img2.pic.in.th/pic/p-high-resolution-logo-transparent5558c45e79d5f3df.png" alt="" />
       </a>
 
       <nav className="nav">
