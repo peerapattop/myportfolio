@@ -5,12 +5,12 @@ import './Skills.css'
 const data = [
   {
     id: 1,
-    image: "https://img2.pic.in.th/pic/htmlcssjavascript.png",
+    image: "https://img5.pic.in.th/file/secure-sv1/htmlcssjavascript-1-2.png",
     title: "HTML , CSS , Javascript",
   },
   {
     id: 2,
-    image: 'https://img5.pic.in.th/file/secure-sv1/reacta2559a304fb52013.png',
+    image: 'https://img5.pic.in.th/file/secure-sv1/react-1.png',
     title: "React.js",
   },
   {
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 4,
-    image: 'https://img2.pic.in.th/pic/javaaa.png',
+    image: 'https://img2.pic.in.th/pic/java-1.png',
     title: "Java",
   },
   {
@@ -29,9 +29,24 @@ const data = [
     title: "Firebase",
   },
   {
-    id: 5,
+    id: 6,
     image: 'https://thaiconfig.com/wp-content/uploads/2023/02/MySQL-Database-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.png',
     title: "MySQL",
+  },
+  {
+    id: 7,
+    image: 'https://img5.pic.in.th/file/secure-sv1/2111432.png',
+    title: "GitHub",
+  },
+  { 
+    id: 8,
+    image: 'https://img5.pic.in.th/file/secure-sv1/Bootstrap_logo.svg.png',
+    title: "BootStrap 5",
+  },
+  {
+    id: 9,
+    image: 'https://img5.pic.in.th/file/secure-sv1/php.png',
+    title: "PHP",
   },
 ];
 

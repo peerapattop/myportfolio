@@ -5,8 +5,8 @@
 }
 
 .services__img {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 100px;
     margin-bottom: 1.25rem;
 }
 
