@@ -2,8 +2,10 @@ import React from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
+  const [toggle,showMenu] = React.useState(false)
   return (
-    <aside className="aside">
+   <>
+    <aside className={toggle ? "aside show-menu" : "aside"}>
       <a href="#home" className="nva__logo">
         <img src="https://img2.pic.in.th/pic/p-high-resolution-logo-transparent5558c45e79d5f3df.png" alt="" />
       </a>
@@ -55,6 +57,11 @@ const Sidebar = () => {
         <span className="copyright"> &copy; 2023 - 2024.</span>
       </div>
     </aside>
+
+    <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+      <i className="icon-menu"></i>
+    </div>
+   </>
   );
 };
 

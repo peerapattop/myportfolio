@@ -1,25 +1,25 @@
-.about__container{
+.about__container {
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
 
-.about__data{
-    padding: 1.875rem ;
+.about__data {
+    padding: 1.875rem;
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
     align-items: center;
     position: relative;
 
 }
 
-.about__img{
+.about__img {
     border-radius: 20%;
 }
 
-.about__data::before{
+.about__data::before {
     content: '';
     width: 0;
     height: 0;
@@ -31,39 +31,95 @@
     top: 20%;
 }
 
-.about__description{
+.about__description {
     margin-bottom: 1rem;
     justify-content: center;
 }
-.btn{
+
+.btn {
     margin-top: 1rem;
 }
 
-.about__skills{
+.about__skills {
     row-gap: 1.25rem;
 }
 
-.skills__titles{
+.skills__titles {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.skill_name{
+.skill_name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
-.skills__number{
+.skills__number {
     line-height: 1.2;
 }
 
 .skills__bar,
-.skills_percentage{
+.skills_percentage {
     height: 7px;
     border-radius: .25rem
 }
 
-.skills__bar{
+.skills__bar {
     background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .about__data::before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        left: 49%;
+        top: -20px;
+    }
+
+    .about__img {
+        justify-self: center;
+    }
+
+    .about__box {
+        flex-direction: column;
+        row-gap: .5rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 350px;
+    }
+
+    .about__data::before {
+        left: 47%;
+    }
+
+    .about__data {
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__container {
+        grid-template-columns: 320px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
 }
