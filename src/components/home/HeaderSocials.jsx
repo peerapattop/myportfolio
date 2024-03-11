@@ -15,6 +15,10 @@ const HeaderSocials = () => {
         <i class="fa-brands fa-facebook"></i>
         </a>
 
+        <a href="tel:092-098-7484" className="home__social-link" target='_blank'>
+        <i class="fa-solid fa-phone"></i>
+        </a>
+
     </div>
   )
 }
