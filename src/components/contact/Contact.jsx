@@ -1,28 +1,36 @@
 import React, { useRef } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm('service_zqe39n6', 'template_d1zg3jd', form.current, {
         publicKey: 'dcF3Q2XjKqQ3HJZNU',
       })
       .then(
         () => {
-          console.log('SUCCESS!');
-          // Reset the form after successful submission
           form.current.reset();
+          Swal.fire({
+            icon: 'success',
+            title: 'Success!',
+            text: 'Your message has been sent successfully!',
+            confirmButtonText: 'Close',
+            confirmButtonColor: '#3085d6',
+          });
         },
         (error) => {
           console.log('FAILED...', error.text);
         }
       );
   };
+  
 
   return (
     <section className='contact container section' id='contact'>
