@@ -10,7 +10,7 @@ const data = [
   },
   {
     id: 2,
-    image: 'https://img5.pic.in.th/file/secure-sv1/react-1.png',
+    image: 'https://img5.pic.in.th/file/secure-sv1/1_yWUgGAQuiROzilwG_tEU2Q.png',
     title: "React.js",
   },
   {
