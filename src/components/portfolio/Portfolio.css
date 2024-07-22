@@ -58,7 +58,7 @@
     transition: .3s;
 }
 
-.work__title{
+.work__title, .work__details {
     color: #fff;
     font-size: var(--h3-font-size);
     margin: 0 0 0.98rem;
@@ -93,6 +93,7 @@
 }
 
 .work__card:hover .work__title,
+.work__card:hover .work__details
 .work__card:hover .work__category{
     opacity: 1;
     transform: translateY(0);
