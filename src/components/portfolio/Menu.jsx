@@ -28,7 +28,7 @@ const Menu = [
     id: 4,
     image: "https://img2.pic.in.th/pic/-2024-08-04-214943.png",
     title: "Food Delivery",
-    details: "Todo List",
+    details: "food delivery",
     category: "WebApplication",
     link : "https://food-delivery-frontend-azyk.onrender.com/"
   }
