@@ -31,6 +31,14 @@ const Menu = [
     details: "food delivery",
     category: "WebApplication",
     link : "https://food-delivery-frontend-azyk.onrender.com/"
+  },
+  {
+    id: 5,
+    image: "https://img5.pic.in.th/file/secure-sv1/noteapp.png",
+    title: "Note App",
+    details: "Note App",
+    category: "WebApplication",
+    link : "https://notes-app-frontend-3y5u.onrender.com/"
   }
 ];
 

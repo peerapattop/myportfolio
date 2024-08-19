@@ -48,6 +48,11 @@ const data = [
     image: 'https://img5.pic.in.th/file/secure-sv1/php.png',
     title: "PHP",
   },
+  {
+    id: 10,
+    image: 'https://img2.pic.in.th/pic/nodejs-express.png',
+    title: "Node.js & Express.js",
+  }
 ];
 
 const Skills = () => {
