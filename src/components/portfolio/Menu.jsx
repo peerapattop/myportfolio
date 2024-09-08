@@ -39,6 +39,14 @@ const Menu = [
     details: "Note App",
     category: "WebApplication",
     link : "https://notes-app-frontend-3y5u.onrender.com/"
+  },
+  {
+    id: 6,
+    image: "https://img5.pic.in.th/file/secure-sv1/Screenshot_20240908_161148a2cf9e771b487ba7.png",
+    title: "POS Mobile",
+    details: "POS Mobile",
+    category: "MobileApplication",
+    link : "https://github.com/peerapattop/posmobile-flutter"
   }
 ];
 
