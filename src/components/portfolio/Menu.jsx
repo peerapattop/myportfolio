@@ -47,6 +47,14 @@ const Menu = [
     details: "POS Mobile",
     category: "MobileApplication",
     link : "https://github.com/peerapattop/posmobile-flutter"
+  },
+  {
+    id: 7,
+    image: "https://img2.pic.in.th/pic/Screenshot_20240911_195726.png",
+    title: "TODO APP Mobile",
+    details: "TODO APP Mobile",
+    category: "MobileApplication",
+    link : "https://github.com/peerapattop/todo_mobile"
   }
 ];
 
