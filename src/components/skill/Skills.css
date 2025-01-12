@@ -1,5 +1,5 @@
 .services__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 0.5fr);
     column-gap: 1.875rem;
     row-gap: 2.5rem;
 }

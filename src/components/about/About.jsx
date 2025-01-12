@@ -15,7 +15,7 @@ const About = () => {
                  <br/>&nbsp;&nbsp;&nbsp;&nbsp;I have 4 months of internship experience as a Web Developer, focusing on Frontend development using React.js, TypeScript, and Tailwind CSS, including API integration. In the future, I hope I will be a good programmer.</p>
             <a href="https://drive.google.com/file/d/12AiEFDTSQR1_DAzMto7q3VsJvkl44t2U/view?usp=sharing" className="btn">Check Resume</a>
             <div></div>
-            <a href="https://drive.google.com/file/d/1zbkJoq2K2He42GBCEjvVl60PhtMpnfyH/view?usp=sharing" className="btn">Check Transcript</a>          
+            <a href="https://drive.google.com/file/d/1MQxh8QopsG_6wBsrDR1hL_a4Lx4OJie_/view?usp=sharing" className="btn">Check Transcript</a>          
           </div>
         </div>
       </div>
