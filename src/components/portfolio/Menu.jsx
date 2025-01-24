@@ -2,11 +2,10 @@
 const Menu = [
   {
     id: 1,
-    image: "https://img2.pic.in.th/pic/Screenshot_20240223_213954cut.jpeg",
+    image: "assets/images/swapitem.jpg",
     title: "Mobile Exchange Of Things",
-    details: "Todo List",
     category: "MobileApplication",
-    link : "https://github.com/peerapattop/swapitem-user-2-firebase"
+    link : "https://github.com/peerapattop/swapItem-project"
   },
   {
     id: 2,

@@ -26,6 +26,7 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+    height: 185px; 
 }
 
 .work__mask{
