@@ -3,7 +3,7 @@ const Menu = [
   {
     id: 1,
     image: "assets/images/swapitem.jpg",
-    title: "Mobile Exchange Of Things",
+    title: "แอปพลิเคชันแลกเปลี่ยนสิ่งของ",
     category: "MobileApplication",
     link : "https://github.com/peerapattop/swapItem-project"
   },
