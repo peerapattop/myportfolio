@@ -1,19 +1,20 @@
+import swapItemImage from "../../assets/images/swapitem.jpg";
+import webPortfolio from "../../assets/images/webPortfolio.jpg";
 
 const Menu = [
   {
     id: 1,
-    image: "assets/images/swapitem.jpg",
+    image: swapItemImage,
     title: "แอปพลิเคชันแลกเปลี่ยนสิ่งของ",
     category: "MobileApplication",
-    link : "https://github.com/peerapattop/swapItem-project"
+    link : "https://github.com/peerapattop/swapItem"
   },
   {
     id: 2,
-    image: "https://img5.pic.in.th/file/secure-sv1/web-1.png",
-    title: "Portfolio Website",
-    details: "Todo List",
+    image: webPortfolio,
+    title: "เว็บ Portfolio",
     category: "WebApplication",
-    link : "https://myportfolio-kappa-opal.vercel.app/"
+    link : "https://github.com/peerapattop/portfolio"
   },
   {
     id: 3,
